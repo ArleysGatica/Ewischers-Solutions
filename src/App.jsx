@@ -1,9 +1,10 @@
+import Header from "./components/Navbar"
 
 function App() {
 
     return (
         <>
-            <h1>Hello wey</h1>
+            <Header />
         </>
     )
 }
