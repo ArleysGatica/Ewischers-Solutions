@@ -1,5 +1,5 @@
 import Card from "./Card_T";
-import HomeTree from "../assets/HomeTree.png";
+import HomeTree from "../../assets/HomeTree.png";
 
 const Home = () => {
     return (
@@ -15,17 +15,20 @@ const Home = () => {
                         Donde los líderes empresariales encuentran software
                     </p>
                 </div>
+                <marquee className="text-white text-center font-bold lg:text-8xl xl:text-8xl h-[115px] w-[100%] auto">
+                    ¡Aumente tus ingresos, sumérgete en la tecnología y supérate ¡
+                </marquee>
             </main>
             <section className="bg-gray-800">
                 <div className="flex flex-col items-center justify-center">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
                         <h1 className="text-3xl lg:text-6xl xl:text-6xl font-bold text-white ml-2 ">
                             Creamos el futuro de tu empresa
                             <br />
                             <strong className="text-indigo-500">Digital con talentos y ideas</strong>
                             <br />
                             Extraordinarios para que puedas crecer !! </h1>
-                        <img className="w-[80%] h-[90%] ml-4" src={HomeTree} alt=""/>
+                        <img className="w-[80%] h-[90%] ml-4" src={HomeTree} alt="" />
                     </div>
                 </div>
             </section>
@@ -50,7 +53,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            < Card /> 
+            < Card />
             {/* opinando */}
             <div className="bg-gray-900 ">
                 <div className="relative flex mt-2">
