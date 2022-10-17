@@ -51,7 +51,7 @@ export const Carousel = () => {
             console.log("prevImage", index);
         }
     };
-    
+
     return (
         <div className="relative w-full h-96 mt-2">
             <div className="absolute inset-0 flex items-center justify-center">

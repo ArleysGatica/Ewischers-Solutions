@@ -8,8 +8,9 @@ function App() {
     
     return (
         <>
-           
-            <Services />
+           <Header/>
+            <Home />
+            <Footer/>
             
         </>
     )

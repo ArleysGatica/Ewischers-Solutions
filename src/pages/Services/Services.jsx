@@ -2,6 +2,7 @@ import Front from "../../assets/Front.jpg";
 import DevSkills from "./Card_D";
 import { Carousel } from "./carrito";
 import Header from "../../components/Navbar";
+import { useEffect , useState} from "react";
 
 const Text = {
     title: "Somos una agencia de desarrolladores",
@@ -42,47 +43,12 @@ const Sdata = [
             "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
     },
 ];
+
 const Services = () => {
     return (
         <>
-            <Header />
-            <main classNameName="bg-slate-900 bg-red-400 ">
-                <div classNameName="">
-                    <h1 classNameName="font-bold mb-4 lg:text-2xl xl:text-2xl uppercase justify-center items-center text-white">
-                        Nuestros servicios
-                    </h1>
-                    <h1 classNameName="font-bold  text-indigo-500 lg:text-2xl xl:text-2xl uppercase justify-center items-center">
-                        Servicios de desarrollo de software y más
-                    </h1>
-                </div>
-
-                <div className=" grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-12 w-full bg-slate-500">
-                <div classNameName="">
-                    {Sdata.map(item => (
-                        <div className="bg-red-500 max-w-2xl mx-auto py-4 px-6 rounded-lg shadow-xl gap-16">
-                            <div className="flex items-center justify-between mb-4">
-                                <span className="bg-indigo-500 text-white py-2 px-4 text-xl rounded flex font-bold text-center">
-                                    {item.title}
-                                </span>
-                            </div>
-                            <div className="flex flex-col gap-2 mb-4">
-                                <p className="text-gray-600">
-                                    {item.description}
-                                </p>
-                            </div>
-                            <div className="flex items-center">
-                                <div className="flex items-center gap-4 ">
-                                    <img src={item.image} className="rounded-md" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    ))}
-                    </div>
-                    </div>
-            </main>
 
         </>
     );
-};
-
-export default Services;
+}
+export default Services
