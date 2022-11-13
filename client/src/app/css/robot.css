@@ -1,0 +1,35 @@
+.robot-wrapper {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f0b30;
+}
+.robot-wrap {
+  height: 80%;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.robot__logo {
+  height: 100%;
+  width: 40%;
+}
+.robot__logo img {
+  height: 100%;
+  object-fit: contain;
+}
+.robot-wrap h2 {
+  width: 55%;
+  font-family: Poppins;
+  font-size: 50px;
+  text-align: end;
+  line-height: 60px;
+  font-weight: bold;
+  display: inline;
+  background-image: linear-gradient(45deg, #00f0ff, #5773ff, #ff007a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

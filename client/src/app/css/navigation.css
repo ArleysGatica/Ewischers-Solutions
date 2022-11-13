@@ -1,0 +1,77 @@
+.home__navigation {
+  height: 10vh;
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.home__navigation__logo {
+  height: 40%;
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.home__navigation__logo img {
+      width: 50%;
+    margin-top: 12%;
+    display: flex;
+  object-fit: contain;
+  
+}
+
+.home__navigation__logo h1 {
+  font-family: Poppins;
+  color: #fff;
+  font-weight: bold;
+}
+.home__navigation__options {
+  height: 60%;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home__navigation__options p {
+  font-family: Poppins;
+  color: #fff;
+}
+.home__navigation__sign {
+  height: 60%;
+  width: 13%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home__navigation__sign button {
+  font-family: Poppins;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+.home__navigation__signIn {
+  border: none;
+  background-color: transparent;
+}
+.home__navigation__signUp {
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 16px;
+  background: #470650;
+  background-clip: padding-box;
+  padding: 2px 12px 2px 12px;
+}
+.home__navigation__signUp::after {
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  left: -3px;
+  right: -3px;
+  background: linear-gradient(45deg, #00f0ff, #5773ff, #ff007a);
+  content: '';
+  z-index: -1;
+  border-radius: 16px;
+}

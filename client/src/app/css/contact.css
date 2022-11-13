@@ -1,0 +1,121 @@
+.contact-wrapper {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f0b30;
+}
+.contact-wrap {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+.contact__title {
+  height: 20%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact__title h2 {
+  font-family: Poppins;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+  display: inline;
+  background-image: linear-gradient(90deg, #00f0ff, #5773ff, #ff007a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contact__title p {
+  font-family: Poppins;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+.contact__form {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact__form__group {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact__form__top {
+  height: 20%;
+  width: 100%;
+  background-color: #0f0b30;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact__form__top input {
+  height: 100%;
+  width: 45%;
+  padding-left: 16px;
+  background: linear-gradient(#0f0b30 0 0) padding-box,
+    linear-gradient(90deg, #00f0ff, #5773ff, #ff007a) border-box;
+  border: 3px solid transparent;
+  border-radius: 24px;
+  display: inline-block;
+}
+.contact__form__top input::placeholder {
+  font-family: Poppins;
+  color: #fff;
+}
+.contact__form__top input {
+  outline: none;
+  font-family: Poppins;
+  color: #fff;
+}
+.contact__form__group > textarea {
+  height: 70%;
+  width: 100%;
+  resize: none;
+  padding-left: 16px;
+  padding-top: 16px;
+  background: linear-gradient(#0f0b30 0 0) padding-box,
+    linear-gradient(90deg, #00f0ff, #5773ff, #ff007a) border-box;
+  border: 3px solid transparent;
+  border-radius: 24px;
+  display: inline-block;
+}
+.contact__form__group > textarea::placeholder {
+  font-family: Poppins;
+  color: #fff;
+}
+.contact__form__group > textarea {
+  outline: none;
+  font-family: Poppins;
+  color: #fff;
+  text-justify: distribute;
+}
+.contact__form button {
+  height: 13%;
+  width: 20%;
+  background: linear-gradient(#0f0b30 0 0) padding-box,
+    linear-gradient(90deg, #00f0ff, #5773ff, #ff007a) border-box;
+  border: 3px solid transparent;
+  border-radius: 24px;
+  display: inline-block;
+}
+.contact__form button {
+  font-family: Poppins;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}

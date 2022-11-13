@@ -1,0 +1,43 @@
+.home {
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(11, 13, 48, 1);
+  position: relative;
+  min-width: 98.7vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.background {
+  height: 200vh;
+  width: 200vh;
+  top: -100vh;
+  left: -50vw;
+  position: absolute;
+  filter: blur(40px);
+  background: rgb(7, 65, 143);
+  background: radial-gradient(
+    circle,
+    rgba(7, 65, 143, 1) 0%,
+    rgba(5, 41, 89, 1) 12%,
+    rgba(11, 13, 48, 1) 60%,
+    rgba(11, 13, 48, 1) 100%
+  );
+}
+.background2 {
+  height: 200vh;
+  width: 200vh;
+  top: -100vh;
+  filter: blur(70px);
+  right: -50vw;
+  position: absolute;
+  background: rgb(130, 7, 133);
+  background: radial-gradient(
+    circle,
+    rgba(130, 7, 133, 1) 0%,
+    rgba(86, 5, 88, 1) 12%,
+    rgba(11, 13, 48, 1) 70%,
+    rgba(11, 13, 48, 1) 100%
+  );
+}

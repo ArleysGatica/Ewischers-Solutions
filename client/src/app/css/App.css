@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.App {
+  height: auto;
+  min-width: 98.7vw;
+}
